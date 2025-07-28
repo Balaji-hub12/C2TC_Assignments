@@ -1,10 +1,10 @@
 package DaySeven.Overriding;
 
-public class ICICI {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+//subclass
+public class ICICI extends RBI {
+	@Override
+	public float getRateOfInterest() {
+		return 6.9f;
 	}
 
 }
