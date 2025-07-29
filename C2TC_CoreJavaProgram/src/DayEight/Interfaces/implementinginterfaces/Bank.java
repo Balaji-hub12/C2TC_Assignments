@@ -1,10 +1,10 @@
 package DayEight.Interfaces.implementinginterfaces;
 
-public class Bank {
+public interface Bank {
+	 double MIN_BALANCE = 1000;
+	 double DEPOSIT_LIMIT = 25000;
+	 double INTEREST_RATE = 7.8;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	 void deposit(Account account, double amount);
+	 void withdraw(Account account, double amount);
 	}
-
-}

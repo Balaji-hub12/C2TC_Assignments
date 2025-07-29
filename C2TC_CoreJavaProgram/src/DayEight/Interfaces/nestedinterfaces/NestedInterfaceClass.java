@@ -1,10 +1,13 @@
 package DayEight.Interfaces.nestedinterfaces;
 
-public class NestedInterfaceClass {
+public class NestedInterfaceClass implements MyInterface.MyInnerInterface{
 
-	public static void main(String[] args) {
+	@Override
+	public void print() {
 		// TODO Auto-generated method stub
-
+		 System.out.println("Print method of nested interface");
 	}
+
+	
 
 }

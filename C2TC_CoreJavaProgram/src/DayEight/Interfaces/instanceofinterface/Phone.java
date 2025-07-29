@@ -1,10 +1,7 @@
 package DayEight.Interfaces.instanceofinterface;
 
-public class Phone {
+public interface Phone {
+	void call();
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+	void sms();
 }

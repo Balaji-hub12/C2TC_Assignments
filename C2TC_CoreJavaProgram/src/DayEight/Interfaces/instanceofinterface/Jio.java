@@ -1,9 +1,15 @@
 package DayEight.Interfaces.instanceofinterface;
 
-public class Jio {
+public class Jio implements Phone {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	@Override
+	public void call() {
+		System.out.println("Calling using Jio");
+	}
+
+	@Override
+	public void sms() {
+		System.out.println("Messaging using Jio");
 
 	}
 
