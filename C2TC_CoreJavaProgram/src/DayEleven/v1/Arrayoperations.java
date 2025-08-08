@@ -1,15 +1,15 @@
 package DayEleven.v1;
 
-public class ArrayOperations {
+public class Arrayoperations {
 
 	int intArray[] ;
 	
-	public ArrayOperations() {
+	public Arrayoperations() {
 		super();
 		
 	}
 
-	public ArrayOperations(int[] intArray) {
+	public Arrayoperations(int[] intArray) {
 		super();
 		this.intArray = intArray;
 		
