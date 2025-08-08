@@ -1,10 +1,7 @@
 package DayNineteen;
 
-public class IStatement {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+@FunctionalInterface // interface is declared with only one abstract method
+interface IStatement {
+	public String show();// abstract Method
+	
 }
